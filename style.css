@@ -1,0 +1,941 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.landing {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://ubunifucollege.com/assets/images/update/main8.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+
+/* Start of elements within the landing section */
+
+.landingBg {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.landingContent {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar {
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin: 0 30px 0 0;
+    max-height: 46px;
+}
+
+.navbarMenuSection {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin: 0px 50px;
+    /* border: 1px solid blue; */
+}
+
+.menu li {
+    display: inline;
+    padding: 25px 0;
+    margin: 0px 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.menu li:hover {
+    color: #bebebe;
+}
+
+.hamburgerMenu {
+    color: white;
+    font-size: 18px;
+}
+
+.hamburgerMenu:hover {
+    color: #ff214f;
+}
+
+.button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 5px 23px;
+    margin: 5px 10px;
+    border-radius: 25px;
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.landingMiddleContent {
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.applyBtn {
+    background-color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: 10px;
+    color: #232323;
+    padding: 5px 23px;
+    border: 2px solid white;
+}
+
+.applyBtn:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.circlePlay {
+    margin-left: 8px;
+}
+
+.landingTitle {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 95px;
+    margin-bottom: 30px;
+}
+
+.landingText {
+    color: #d6d5d5;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+
+.downBtn {
+    background-color: #337ab7;
+    border-radius: 50%;
+    padding: 13px 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.buildBtn {
+    background-color: #ff214f;
+    border: 2px solid #ff214f;
+    border-radius: 30px;
+    color: white;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px 32px;
+}
+
+.buildBtn:hover {
+    background-color: transparent;
+    border: 2px solid #ff214f;
+    color: #ff214f;
+}
+
+/* End of elements within the landing section */
+
+.about {
+    padding: 0;
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Start of elements within the about section */
+
+.aboutText {
+    width: 35%;
+}
+
+.aboutTextminiTitle {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ff214f;
+    margin-bottom: 15px;
+}
+
+.aboutTextTitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #232323;
+    margin-bottom: 35px;
+}
+
+.aboutTextDescription {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #6f6f6f;
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+
+.methodBtn {
+    background-color: #007bff;
+    color: white;
+    font-size: 11px;
+    padding: 10px 29px;
+    margin: 10px 0;
+}
+
+.methodBtn:hover {
+    background-color: #007bff;
+    color: black;
+}
+
+.aboutColOne {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+/* aboutColOne start */
+.tab {
+    margin: 15px 0;
+    padding: 13% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    border-radius: 8px;
+    line-height: 24px;
+}
+
+.tab img {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.tabHeader {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.tabText {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.graduateTab {
+    background-color: #ff5c75;
+}
+
+.learnTab {
+    background-color: #337ab7;
+}
+/* aboutColOne end */
+
+.aboutColTwo {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+/* aboutColTwo start */
+.projectTab {
+    background-color: #43d39e;
+}
+
+.peerTab {
+    background-color: #ffbe0b;
+}
+/* aboutColTwo end */
+
+/* End of elements within the about section */
+
+.enrol {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* start of element within the enrol section */
+
+.enrolImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("https://ubunifucollege.com/assets/images/update/left.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.enrolContent {
+    padding:115px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+/* enrolContent start */
+.enrolContent img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.enrolContentHeader {
+    color: #5bc0de;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.enrolContentText {
+    color: #6f6f6f;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;
+    line-height: 24px;
+    width: 95%;
+}
+
+.enrolBtn {
+    margin: 20px 0 0;
+    background-color: #ff214f;
+    padding: 8px 30px;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid #ff214f;
+}
+
+.enrolBtn:hover {
+    background-color: transparent;
+    color: #ff214f;
+}
+/* enrolContent end */
+
+/* end of elements within the enrol section */
+
+.pathways {
+    padding: 70px 0 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* start of elements within the pathways section */
+
+.programsText {
+    margin: 0 15px;
+    font-size: 12px;
+    color: #ff214f;
+    margin: 0 0 5px;
+    font-weight: 700;
+    width: 1170px;
+}
+
+.pathwaysTitle {
+    margin: 0 15px;
+    font-size: 48px;
+    color: #343a40;
+    margin: 0 0 25px;
+    font-weight: 700;
+    width: 1170px;
+}
+
+.programTabList {
+    width: 1170px;
+}
+
+.programTab {
+    float: left;
+    width: 365px;
+    padding: 10px;
+}
+
+.programTabImage {
+    height: 235px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.programTabDescription {
+    height: 90px;
+    padding: 25px 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.programTabTitle {
+    font-size: 12px;
+    color: #5bc0de;
+    margin: 0 0 5px;
+    font-weight: 600;
+}
+
+.programTabText {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #6f6f6f;
+}
+
+.redOverlay {
+    background-color: #ff214f;
+    opacity: 0.85;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+
+.linkIconContainer {
+    opacity: 1;
+    padding: 12px 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    display: none;
+}
+
+.linkIconContainer:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.linkIcon {
+    font-size: 20px;
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.programTabImage:hover .redOverlay{
+    display:block;
+}
+
+.programTabImage:hover .linkIconContainer{
+    display: block;
+    z-index: 2;
+}
+
+.softwareDevImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/main10.jpg");
+}
+
+.machineLearningImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/main4.jpg");
+}
+
+.datascienceImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/main11.jpg");
+}
+
+.blockchainImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/blockchain.jpg");
+}
+
+.roboticsImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/robotics.jpg");
+}
+
+.startupSchoolImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/main1.jpg");
+}
+
+/* end of elements within the pathways section */
+
+.process {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+/* start of elements within the process section */
+
+.processImage {
+    background-image: url("https://ubunifucollege.com/assets/images/update/main2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.processContent {
+    height: 100%;
+    padding: 6%;
+    background-color: #007bff;
+    width: 50%;
+}
+
+/* processContent start */
+.processTitle {
+    font-size: 40px;
+    margin: 0 0 40px 0;
+    font-weight: 700;
+    color: white;
+    padding: 0 15px;
+}
+
+.processList {
+    width: 100%;
+}
+
+.processTab {
+    float: left;
+    width: 50%;
+    margin: 0 0 30px;
+    padding: 0 15px;
+    line-height: 24px;
+}
+
+.processTabHeader {
+    font-size: 14px;
+    color: #343a40;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.processTab span {
+    font-size: 18px;
+    color: #343a40;
+    margin: 0 15px 0 0;
+}
+
+.processTabText {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.tabSpace {
+    opacity: 0;
+    cursor: default;
+}
+/* processContent end */
+
+/* end of elements within the process section */
+
+.success {
+    padding: 130px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start of elements within the success section */
+.successHeader {
+    text-align: center;
+    height: 200px;
+}
+
+.successMiniTitle {
+    color: #ff214f;
+    font-size: 12px;
+    margin: 0 0 5px;
+}
+
+.successTitle {
+    font-size: 48px;
+    color: #5bc0de;
+    margin: 0 0 25px;
+}
+
+.videoList {
+    display: flex;
+}
+
+.videoContainer {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.videoHeader {
+    font-size: 12px;
+    color: #5bc0de;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.videoDescription {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 25px;
+}
+
+/* end of elements within the success section */
+
+.learnCode {
+    width: 100%;
+    height: 510px;
+    background-image: url("https://ubunifucollege.com/assets/images/update/main5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 130px 0;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+/* start of elements within the learnCode section */
+
+.darkOverlay {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.learnCodeImage {
+    cursor: pointer;
+}
+
+.learnCodeText {
+    font-size: 25px;
+    margin: 0 0 25px;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    cursor:context-menu;
+}
+
+/* end of elements within the learnCode section */
+
+.extraInfo {
+    width: 100%;
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://ubunifucollege.com/assets/images/update/business-digital-bg.jpg");
+    background-size: cover;
+}
+
+/* start of elements within the extraInfo section */
+
+.extraInfoTab {
+    margin: 0 15px;
+    padding: 1.7% 2.3%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 24px;
+}
+
+.extraInfoHeader {
+    font-size: 40px;
+    font-weight: 200;
+    color: #ff214f;
+    margin: 0 0 25px;
+    line-height: 46px;
+}
+
+.extraInfoSubHeader {
+    font-size: 18px;
+    color: #232323;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.extraInfoText {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 25px;
+    color: #6f6f6f;
+}
+
+/* end of elements within the extraInfo section */
+
+.getStarted{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #ff214f;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start of elements within the getStarted section */
+
+.getStartedText {
+    font-size: 20px;
+    margin: 5px 30px 0 0;
+    color: white;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.getStartedBtn {
+    background-color: white;
+    color: #232323;
+    padding: 6px 32px;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 24px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.getStartedBtn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* end of elements within the getStarted section */
+
+.news {
+    height: 80vh;
+    width: 100%;
+    padding: 130px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* start of elements within the news section */
+
+.newsTitle {
+    font-size: 32px;
+    margin: 0 0 20px;
+    color: #232323;
+    font-weight: 900;
+}
+
+.newsChannels {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* end of elements within the news section */
+
+.footer {
+    background-color: #1c1c1c;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start of elements within the footer section */
+
+.footerPart {
+    height: 181px;
+    width: 294px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ubunifuDescription start */
+.ubunifuDescription img{
+    margin: 0 0 15px 0;
+}
+
+.ubunifuDescText {
+    width: 90%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #6f6f6f;
+    margin: 0 0 25px;
+    line-height: 20px;
+}
+
+.socialLinks {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.socialLinks li {
+    display: inline;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.footerIcon {
+    font-size: 16px;
+    color: white;
+}
+
+.footerIcon:hover {
+    color: #ff214f;
+}
+
+.socialLinks .instaIcon {
+    margin-left: 0;
+}
+/* ubunifuDescText end */
+
+
+/* information start */
+.information{
+    padding-left: 45px;
+    border-left: 1px solid #363636;
+}
+.informationTitle {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+.infoList {
+    list-style-type: none;
+    position: relative;
+    bottom: 40px;
+}
+
+.infoList li a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.infoList a:hover {
+    color: #ff214f;
+}
+/* information end */
+
+/* contactInfo start */
+.contactInfo{
+    padding-bottom: 40px;
+    padding-left: 45px;
+    border-left: 1px solid white;
+}
+
+.contactInfo p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    color: #6f6f6f;
+}
+
+.contactInfo .contactInfoTitle {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+.contactTop {
+    margin: 0 0 15px;
+    width: 90%;
+}
+
+.contactEmail span {
+    color: #ff214f;
+}
+
+.viewDirectionLink{
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+/* contactInfo end */
+
+/* instaPortfolio start */
+.instaPortfolioTitle{
+    height: 100%;
+    padding-left: 45px;
+    border-left: 1px solid #363636;
+}
+
+.instaPortfolioTitle {
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    font-weight: 700;
+}
+/* instaPortfolio end */
+
+/* end of elements within the footer section */
+
+.copyright{
+    padding: 50px 0;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    width: 50%;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 15px;
+    text-align: center;
+}
