@@ -297,7 +297,8 @@
 /* End of elements within the about section */
 
 .enrol {
-    height: 100vh;
+    height: 85vh;
+    max-height: 650px;
     width: 100%;
     display: flex;
 }
