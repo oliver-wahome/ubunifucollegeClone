@@ -176,6 +176,66 @@
     color: #ff214f;
 }
 
+#workshops {
+    height: 100vh;
+    width: 35%;
+    padding: 30px;
+    /* display: none; */
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+
+.workshopCloseBtn{
+    font-size: 24px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+.workshopContent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.workshopTitle {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 900;
+    color: #232323;
+}
+
+.workshopText{
+    font-size: 32px;
+    font-weight: 600;
+    color: #232323;
+}
+
+.workshopText span {
+    color: #626262;
+}
+
+.workshopText span strong {
+    font-weight: 900;
+}
+
+.workshopIcon {
+    margin: 0 5px;
+    font-size: 18px;
+    color: black;
+}
+
+.workshopIcon:hover {
+    color: #ff214f;
+}
+
 /* End of elements within the landing section */
 
 .about {
